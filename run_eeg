@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH --time=24:00:00
+#SBATCH -p a100-8
+#SBATCH --gres=gpu:a100:2
+#SBATCH --ntasks=32
+#SBATCH --mem=200g
+#SBATCH --tmp=200g
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=xxx@xxx.com
+#SBATCH --output=R-%Result.txt
+#SBATCH --error=R-%Error.txt
+module load python3
+conda activate eeg
+python3 newModel.py --eegnet_kernel_size 32 --eegnet_f1 16 --eegnet_D 2 --num_heads 4
