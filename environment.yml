@@ -1,0 +1,43 @@
+name: eeg
+channels:
+  - defaults
+dependencies:
+  - python=3.9  
+  - pip
+  - cudatoolkit=12.4 
+  - cudnn=9.1.1
+  - openssl=3.0
+  - sqlite
+  - tk
+  - zlib
+  - pip:
+    - argparse
+    - certifi
+    - contourpy
+    - cycler
+    - decorator
+    - filelock
+    - fonttools
+    - fsspec
+    - idna
+    - jinja2
+    - joblib
+    - kiwisolver
+    - markupsafe
+    - matplotlib
+    - mne
+    - numpy
+    - pandas
+    - pillow
+    - pyparsing
+    - requests
+    - scikit-learn
+    - scipy
+    - six
+    - sympy
+    - torch
+    - tqdm
+    - triton
+    - typing-extensions
+    - urllib3
+    - zipp
