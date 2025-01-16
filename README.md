@@ -11,4 +11,5 @@ The EEG data used to train and test the model can be found [here](https://isip.p
 After downloading the EEG seizure data, create and activate the conda environment provided by the environment.yml file using the commands:
 
 `conda env create -f environment.yml`
+
 `conda activate eeg`
