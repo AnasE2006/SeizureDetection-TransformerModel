@@ -12,6 +12,4 @@ After downloading the EEG seizure data, create and activate the conda environmen
 
 ```bash
 conda env create -f environment.yml
-
-```bash
 conda activate eeg
