@@ -8,8 +8,11 @@ This work was done as part of NSF undergraduate research with the goal of modify
 The EEG data used to train and test the model can be found [here](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/) from the Temple University Hospital EEG Seizure Corpus which is one of the largest accessible datasets for EEG seizure data. To request and gain access to the data, the initial steps on their page can be followed, and then the rsync command at the end of the page can be used to download the desired version of the data.
 
 # Workflow
+## Environment
 After downloading the EEG seizure data, create and activate the conda environment provided by the environment.yml file using the commands:
 
 ```bash
 conda env create -f environment.yml
 conda activate eeg
+
+
