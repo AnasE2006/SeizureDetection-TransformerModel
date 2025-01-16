@@ -14,5 +14,10 @@ After downloading the EEG seizure data, create and activate the conda environmen
 ```bash
 conda env create -f environment.yml
 conda activate eeg
+```
 
 ## Preprocessing
+The preprocessing work primarily takes place in dataPreprocessor.py which relies on functions in dataReader.py. To get it working set up the proper file paths to the downloaded EEG seizure data and where the preprocessed data will be saved inside of dataPreprocessor.py. Then run the command ```bash python3 dataPreprocessor.py```
+
+## Training
+To train the model, a run file is provided in run_eeg where the desired hyperparameters to pass into the model can be altered otherwise the command ```python3 model.py --eegnet_kernel_size x --eegnet_f1 x  --eegnet_D x --num_heads x``` can be used where the x's are replaced with hyperparameters.
