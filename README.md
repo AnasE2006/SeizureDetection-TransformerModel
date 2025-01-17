@@ -25,9 +25,9 @@ All the code for the model is located in model.py which requires setting up the 
 To train the model, a run file is provided in run_eeg where the desired hyperparameters to pass into the model can be altered otherwise the command ```python3 model.py --eegnet_kernel_size x --eegnet_f1 x  --eegnet_D x --num_heads x``` can be used where the x's are replaced with hyperparameters.
 
 ## Results
-Training the model with the hyperparameters \[\eegnet_F1=64, eegnet_D=4, eegnet_kernel_size=64, MSA_num_heads = 4\] produced the following results:
+Training the model with the hyperparameters \[eegnet_F1=64, eegnet_D=4, eegnet_kernel_size=64, MSA_num_heads = 4\] produced the following results:
 
 
-<img width="490" alt="image" src="https://github.com/user-attachments/assets/bfedbe20-909d-47e9-ae15-ae4919cb3f04" />
-<img width="793" alt="image" src="https://github.com/user-attachments/assets/43f13603-4aaf-4f5a-9036-1bfefc708d66" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/bfedbe20-909d-47e9-ae15-ae4919cb3f04" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/43f13603-4aaf-4f5a-9036-1bfefc708d66" />
 
