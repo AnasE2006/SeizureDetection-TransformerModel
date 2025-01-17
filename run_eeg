@@ -11,4 +11,4 @@
 #SBATCH --error=R-%Error.txt
 module load python3
 conda activate eeg
-python3 newModel.py --eegnet_kernel_size 32 --eegnet_f1 16 --eegnet_D 2 --num_heads 4
+python3 model.py --eegnet_kernel_size x --eegnet_f1 x --eegnet_D x --num_heads x
