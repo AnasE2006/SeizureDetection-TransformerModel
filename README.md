@@ -27,7 +27,8 @@ To train the model, a run file is provided in run_eeg where the desired hyperpar
 ## Results
 Training the model with the hyperparameters \[eegnet_F1=64, eegnet_D=4, eegnet_kernel_size=64, MSA_num_heads = 4\] produced the following results:
 
-
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/bfedbe20-909d-47e9-ae15-ae4919cb3f04" />
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/43f13603-4aaf-4f5a-9036-1bfefc708d66" />
+<p float="left">
+  <img width="450" alt="image" src="https://github.com/user-attachments/assets/bfedbe20-909d-47e9-ae15-ae4919cb3f04" />
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/43f13603-4aaf-4f5a-9036-1bfefc708d66" />
+</p>
 
