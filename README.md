@@ -20,6 +20,11 @@ conda activate eeg
 The preprocessing work primarily takes place in dataPreprocessor.py which relies on functions in dataReader.py. To get it working set up the proper file paths to the downloaded EEG seizure data and where the preprocessed data will be saved inside of dataPreprocessor.py. Then run the command ```bash python3 dataPreprocessor.py```
 
 ## Training
-All the code for the model is located in model.py which requires setting up the proper file path to the preprocessed EEG seizure data and where the final results will be saved.  
+All the code for the model is located in model.py which requires setting up the proper file path to the preprocessed EEG seizure data and where the final results will be saved. Other parameters such as the weights given for the seiz/bckg classes and learning rate can also be changed inside of the model.py file before training.
 
 To train the model, a run file is provided in run_eeg where the desired hyperparameters to pass into the model can be altered otherwise the command ```python3 model.py --eegnet_kernel_size x --eegnet_f1 x  --eegnet_D x --num_heads x``` can be used where the x's are replaced with hyperparameters.
+
+## Results
+Training the model with the hyperparameters \[\eegnet_F1=64, eegnet_D=4, eegnet_kernel_size=64, MSA_num_heads = 4\] produced the following results:
+
+<img width="486" alt="Screenshot 2025-01-16 at 7 11 28 PM" src="https://github.com/user-attachments/assets/93c41860-e86e-4e81-8bae-85df4c45ebec" />
